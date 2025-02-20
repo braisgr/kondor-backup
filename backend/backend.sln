@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{53F50A97-9E39-4AA1-985B-690808737CF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondor.Domain", "src\Kondor.Domain\Kondor.Domain.csproj", "{9E96EA58-CDA1-4F00-8A58-7F65E8C4A048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondor.Application", "src\Kondor.Application\Kondor.Application.csproj", "{28EDA677-D5DB-4213-AB9C-28D647F5199B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondor.Infrastructure", "src\Kondor.Infrastructure\Kondor.Infrastructure.csproj", "{8E8E8308-98A1-4BC3-AB07-36BD8F2F9024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondor.Api", "src\Kondor.Api\Kondor.Api.csproj", "{9D9839BE-3A56-447D-B40C-EDEDEDFAD019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondor.Cli", "src\Kondor.Cli\Kondor.Cli.csproj", "{833062F6-D9A3-440C-B05D-54C02C39F9AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A3EB07D9-7947-415F-B0BA-EF2C453694B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondor.Domain.Tests", "tests\Kondor.Domain.Tests\Kondor.Domain.Tests.csproj", "{71F4889A-CB7A-4DBA-A277-F9FCE5EF612D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondor.Application.Tests", "tests\Kondor.Application.Tests\Kondor.Application.Tests.csproj", "{27D7AC03-EAFF-4AB7-92D8-D77AE6DEB768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondor.Infrastructure.Tests", "tests\Kondor.Infrastructure.Tests\Kondor.Infrastructure.Tests.csproj", "{9FD12025-6AD2-4284-BE2C-CBACF61A39D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondor.Api.Tests", "tests\Kondor.Api.Tests\Kondor.Api.Tests.csproj", "{ED493330-A4BD-4F15-AC0A-552818BC9204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondor.Integration.Tests", "tests\Kondor.Integration.Tests\Kondor.Integration.Tests.csproj", "{E0C8C465-C170-4582-A3A9-1653A0FEA385}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E96EA58-CDA1-4F00-8A58-7F65E8C4A048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E96EA58-CDA1-4F00-8A58-7F65E8C4A048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E96EA58-CDA1-4F00-8A58-7F65E8C4A048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E96EA58-CDA1-4F00-8A58-7F65E8C4A048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EDA677-D5DB-4213-AB9C-28D647F5199B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EDA677-D5DB-4213-AB9C-28D647F5199B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EDA677-D5DB-4213-AB9C-28D647F5199B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EDA677-D5DB-4213-AB9C-28D647F5199B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8E8308-98A1-4BC3-AB07-36BD8F2F9024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8E8308-98A1-4BC3-AB07-36BD8F2F9024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8E8308-98A1-4BC3-AB07-36BD8F2F9024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8E8308-98A1-4BC3-AB07-36BD8F2F9024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D9839BE-3A56-447D-B40C-EDEDEDFAD019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D9839BE-3A56-447D-B40C-EDEDEDFAD019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D9839BE-3A56-447D-B40C-EDEDEDFAD019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D9839BE-3A56-447D-B40C-EDEDEDFAD019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833062F6-D9A3-440C-B05D-54C02C39F9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833062F6-D9A3-440C-B05D-54C02C39F9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833062F6-D9A3-440C-B05D-54C02C39F9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833062F6-D9A3-440C-B05D-54C02C39F9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F4889A-CB7A-4DBA-A277-F9FCE5EF612D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F4889A-CB7A-4DBA-A277-F9FCE5EF612D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F4889A-CB7A-4DBA-A277-F9FCE5EF612D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F4889A-CB7A-4DBA-A277-F9FCE5EF612D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D7AC03-EAFF-4AB7-92D8-D77AE6DEB768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D7AC03-EAFF-4AB7-92D8-D77AE6DEB768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D7AC03-EAFF-4AB7-92D8-D77AE6DEB768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D7AC03-EAFF-4AB7-92D8-D77AE6DEB768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD12025-6AD2-4284-BE2C-CBACF61A39D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD12025-6AD2-4284-BE2C-CBACF61A39D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD12025-6AD2-4284-BE2C-CBACF61A39D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD12025-6AD2-4284-BE2C-CBACF61A39D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED493330-A4BD-4F15-AC0A-552818BC9204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED493330-A4BD-4F15-AC0A-552818BC9204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED493330-A4BD-4F15-AC0A-552818BC9204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED493330-A4BD-4F15-AC0A-552818BC9204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C8C465-C170-4582-A3A9-1653A0FEA385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C8C465-C170-4582-A3A9-1653A0FEA385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C8C465-C170-4582-A3A9-1653A0FEA385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C8C465-C170-4582-A3A9-1653A0FEA385}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E96EA58-CDA1-4F00-8A58-7F65E8C4A048} = {53F50A97-9E39-4AA1-985B-690808737CF9}
+		{28EDA677-D5DB-4213-AB9C-28D647F5199B} = {53F50A97-9E39-4AA1-985B-690808737CF9}
+		{8E8E8308-98A1-4BC3-AB07-36BD8F2F9024} = {53F50A97-9E39-4AA1-985B-690808737CF9}
+		{9D9839BE-3A56-447D-B40C-EDEDEDFAD019} = {53F50A97-9E39-4AA1-985B-690808737CF9}
+		{833062F6-D9A3-440C-B05D-54C02C39F9AF} = {53F50A97-9E39-4AA1-985B-690808737CF9}
+		{71F4889A-CB7A-4DBA-A277-F9FCE5EF612D} = {A3EB07D9-7947-415F-B0BA-EF2C453694B0}
+		{27D7AC03-EAFF-4AB7-92D8-D77AE6DEB768} = {A3EB07D9-7947-415F-B0BA-EF2C453694B0}
+		{9FD12025-6AD2-4284-BE2C-CBACF61A39D2} = {A3EB07D9-7947-415F-B0BA-EF2C453694B0}
+		{ED493330-A4BD-4F15-AC0A-552818BC9204} = {A3EB07D9-7947-415F-B0BA-EF2C453694B0}
+		{E0C8C465-C170-4582-A3A9-1653A0FEA385} = {A3EB07D9-7947-415F-B0BA-EF2C453694B0}
+	EndGlobalSection
+EndGlobal
